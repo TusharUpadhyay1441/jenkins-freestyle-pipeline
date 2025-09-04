@@ -8,8 +8,8 @@ This project demonstrates how to build a delivery pipeline using **Jenkins Frees
 The pipeline consists of 4 stages, implemented as separate Freestyle jobs:
 
 1. **Compile** – Compiles the source code.  
-2. **Code Review** – Runs static analysis or linting checks.  
-3. **Test** – Executes unit/integration tests.  
+2. **Code Review** – Runs static analysis or linting checks using **PDM Warning**.  
+3. **Test** – Executes unit/integration tests using **JUnit Test Result Report**.  
 4. **Package** – Packages the build artifacts.  
 
 Jobs are connected using **upstream and downstream triggers**, so the pipeline executes in sequence.
@@ -20,18 +20,20 @@ Jobs are connected using **upstream and downstream triggers**, so the pipeline e
 - **Jenkins Freestyle Jobs**
 - Upstream/Downstream Triggers
 - GitHub Integration
-- Maven (for build) / Any build tool
+- Maven (for build)
 
 ---
 
 ## 📸 Screenshots
-(Add screenshots here to showcase Jenkins job configuration & pipeline view)
 
-Example:
-- `images/job-compile.png`
-- `images/job-code-review.png`
-- `images/job-test.png`
-- `images/job-package.png`
-- `images/pipeline-view.png`
-
+**Code Complie**
+- <img src="images/Compile.png">
+**Code Review**
+- <img src="images/Review.png"> <img src="images/Review PDM.png">
+**Code Test**
+- <img src="images/test.png"> <img src="images/test result.png">
+**Code Package**
+- <img src="images/Package.png">
+**Pipeline View**
+- <img src="images/Pipeline View.png"> 
 ---
