@@ -28,12 +28,16 @@ Jobs are connected using **upstream and downstream triggers**, so the pipeline e
 
 **Code Complie**
 - <img src="images/Compile.png">
+-------------------------------------
 **Code Review**
 - <img src="images/Review.png"> <img src="images/Review PDM.png">
+-------------------------------------
 **Code Test**
 - <img src="images/test.png"> <img src="images/test result.png">
+-------------------------------------
 **Code Package**
 - <img src="images/Package.png">
+-------------------------------------
 **Pipeline View**
 - <img src="images/Pipeline View.png"> 
----
+-------------------------------------
