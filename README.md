@@ -30,6 +30,7 @@ Jobs are connected using **upstream and downstream triggers**, so the pipeline e
 - <img src="images/Compile.png">
 -------------------------------------
 ## Code Review
+** Code Review is done using PDM Warning Trend Plugin to make sure code dont have any issues**
 - <img src="images/Review.png"> <img src="images/Review PDM.png">
 -------------------------------------
 ## Code Test
