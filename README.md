@@ -34,6 +34,7 @@ Jobs are connected using **upstream and downstream triggers**, so the pipeline e
 - <img src="images/Review.png"> <img src="images/Review PDM.png">
 -------------------------------------
 ## Code Test
+**Code Test Report is made using JUnit test result report Plugin to check the how many and different test it passed or failed.**
 - <img src="images/test.png"> <img src="images/test result.png">
 -------------------------------------
 ## Code Package
