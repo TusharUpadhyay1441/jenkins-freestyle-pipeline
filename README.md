@@ -43,11 +43,8 @@ Jobs are connected using **upstream and downstream triggers**, so the pipeline e
 ## Pipeline View
 **Pipelin View :-**
 **Green Box :- Its means the process is done.**
-
 **Yellow Box :- It means the current process is going onn.**
-
 **Blue Box :- It means the process is yet to start or its**
-
 **Red Box :- It means the process is failed or got an error while running.**
 - <img src="images/Pipeline View.png"> 
 -------------------------------------
