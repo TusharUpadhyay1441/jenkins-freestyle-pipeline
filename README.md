@@ -1,11 +1,11 @@
 # Jenkins Freestyle Delivery Pipeline
 
-This project demonstrates how to build a delivery pipeline using **Jenkins Freestyle Jobs** with upstream and downstream triggers.  
+This project i have demonstrated how to build a delivery pipeline using **Jenkins Freestyle Jobs** with upstream and downstream triggers.  
 
 ---
 
 ## 🚀 Pipeline Overview
-The pipeline consists of 4 stages, implemented as separate Freestyle jobs:
+The pipeline consists of 4 stages, which are implemented as separate Freestyle jobs:
 
 1. **Compile** – Compiles the source code.  
 2. **Code Review** – Runs static analysis or linting checks using **PDM Warning**.  
